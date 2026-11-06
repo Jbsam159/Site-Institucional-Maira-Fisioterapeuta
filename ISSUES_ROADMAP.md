@@ -90,8 +90,8 @@
 
 ### Issue #05 — Configuração inicial do ambiente
 
-- [ ] Criar projeto Next.js.
-- [ ] Configurar TypeScript.
+- [x] Criar projeto Next.js.
+- [x] Configurar TypeScript.
 - [ ] Configurar Tailwind CSS.
 - [ ] Configurar estrutura inicial de diretórios.
 - [ ] Configurar ESLint.
