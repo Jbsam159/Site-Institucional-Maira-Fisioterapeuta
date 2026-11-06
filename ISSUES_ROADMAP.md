@@ -92,9 +92,9 @@
 
 - [x] Criar projeto Next.js.
 - [x] Configurar TypeScript.
-- [ ] Configurar Tailwind CSS.
-- [ ] Configurar estrutura inicial de diretórios.
-- [ ] Configurar ESLint.
+- [x] Configurar Tailwind CSS.
+- [x] Configurar estrutura inicial de diretórios.
+- [x] Configurar ESLint.
 - [ ] Configurar Git e organização inicial do repositório.
 - [ ] Criar arquivo de variáveis de ambiente de exemplo, caso necessário.
 - [ ] Verificar execução local do projeto.
