@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maira Oliveira — Site Institucional
 
-## Getting Started
+Site institucional desenvolvido para **Maira Oliveira**, fisioterapeuta, com o objetivo de apresentar seus serviços profissionais, fortalecer sua presença digital e facilitar o contato com potenciais pacientes.
 
-First, run the development server:
+## 🎯 Objetivo do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Desenvolver uma plataforma institucional moderna, responsiva e intuitiva, que transmita profissionalismo, confiança e acolhimento.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site deverá funcionar como um canal de divulgação dos serviços da profissional, permitindo que visitantes conheçam sua trajetória, especialidades e modalidades de atendimento, além de facilitar solicitações de agendamento.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Planejadas
 
-## Learn More
+- [ ] Página inicial com apresentação profissional.
+- [ ] Seção sobre a fisioterapeuta.
+- [ ] Apresentação dos serviços oferecidos.
+- [ ] Seção de diferenciais profissionais.
+- [ ] Depoimentos de pacientes, mediante autorização.
+- [ ] Integração com WhatsApp para contato e agendamento.
+- [ ] Informações de localização e atendimento.
+- [ ] Links para redes sociais profissionais.
+- [ ] Design responsivo para dispositivos móveis, tablets e desktops.
+- [ ] Otimização básica para mecanismos de busca (SEO).
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Identidade Visual
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A identidade visual será desenvolvida a partir da marca **Maira Oliveira — Fisioterapeuta**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Direção visual
 
-## Deploy on Vercel
+- **Rosa:** acolhimento, delicadeza e cuidado.
+- **Nude:** elegância, tranquilidade e sofisticação.
+- **Tipografia:** elegante, moderna e de fácil leitura.
+- **Estilo:** minimalista, profissional e acolhedor.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A identidade visual deverá ser consistente em todas as seções do site.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tecnologias
+
+_Stack tecnológica a definir durante o planejamento._
+
+## 📁 Estrutura do Projeto
+
+_A estrutura de diretórios será documentada após a definição da arquitetura e configuração inicial do projeto._
+
+## 🚀 Etapas de Desenvolvimento
+
+### Fase 1 — Planejamento
+
+- [ ] Levantamento de requisitos.
+- [ ] Definição do público-alvo.
+- [ ] Identificação das especialidades e serviços.
+- [ ] Definição do conteúdo institucional.
+- [ ] Definição da estrutura de navegação.
+
+### Fase 2 — Identidade Visual e UI/UX
+
+- [ ] Finalização da logomarca.
+- [ ] Definição da paleta de cores.
+- [ ] Definição da tipografia.
+- [ ] Criação do layout das páginas.
+- [ ] Definição da experiência do usuário.
+
+### Fase 3 — Configuração e Desenvolvimento
+
+- [ ] Configuração inicial do repositório.
+- [ ] Configuração do ambiente de desenvolvimento.
+- [ ] Implementação da estrutura principal.
+- [ ] Desenvolvimento das seções institucionais.
+- [ ] Implementação da responsividade.
+- [ ] Integração com WhatsApp e redes sociais.
+
+### Fase 4 — SEO e Otimização
+
+- [ ] Configuração de metadados.
+- [ ] Otimização de imagens.
+- [ ] Implementação de boas práticas de acessibilidade.
+- [ ] Otimização de desempenho.
+- [ ] Configuração de SEO básico.
+
+### Fase 5 — Testes e Publicação
+
+- [ ] Testes de responsividade.
+- [ ] Testes de navegação e funcionalidades.
+- [ ] Revisão do conteúdo.
+- [ ] Validação com a profissional.
+- [ ] Configuração do domínio.
+- [ ] Publicação do site.
+
+## 📌 Observações
+
+- O projeto deverá priorizar simplicidade, desempenho e facilidade de navegação.
+- O layout deverá ser pensado inicialmente para dispositivos móveis (Mobile First).
+- As informações profissionais deverão ser fornecidas e validadas pela fisioterapeuta.
+- Fotografias, depoimentos e demais conteúdos de pacientes somente deverão ser utilizados mediante autorização adequada.
+- A identidade visual deverá manter consistência em todos os pontos de contato com a marca.
+
+---
+
+**Projeto:** Maira Oliveira — Site Institucional  
+**Categoria:** Desenvolvimento Web / Site Institucional  
+**Status:** Em planejamento
