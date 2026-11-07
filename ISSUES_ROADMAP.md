@@ -115,7 +115,7 @@
 
 - [x] Configurar cores personalizadas.
 - [x] Configurar tipografia.
-- [ ] Implementar estilos globais.
+- [x] Implementar estilos globais.
 - [ ] Criar componentes reutilizáveis de interface.
 - [ ] Implementar botões.
 - [ ] Implementar elementos visuais compartilhados.
