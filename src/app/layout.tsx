@@ -1,6 +1,9 @@
 
 import type { Metadata } from "next";
 
+import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
+
 import {
   Cormorant_Garamond,
   DM_Sans,
@@ -33,7 +36,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="pt-BR"
       className={`${cormorantGaramond.variable} ${dmSans.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+
+        <Header />
+
+        {children}
+
+        <Footer />
+
+      </body>
+
     </html>
+
   );
 }

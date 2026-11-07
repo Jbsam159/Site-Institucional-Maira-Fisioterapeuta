@@ -118,8 +118,8 @@
 - [x] Implementar estilos globais.
 - [x] Criar componentes reutilizáveis de interface.
 - [x] Implementar botões.
-- [ ] Implementar elementos visuais compartilhados.
-- [ ] Implementar padrões responsivos.
+- [x] Implementar elementos visuais compartilhados.
+- [x] Implementar padrões responsivos.
 
 **Critérios de aceitação:**
 

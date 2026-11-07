@@ -25,7 +25,7 @@ export function SectionTitle({
         </span>
       )}
 
-      <h2 className="font-heading text-4xl font-semibold text-brand-rose md:text-5xl">
+      <h2 className="font-heading text-3xl font-semibold text-brand-rose sm:text-4xl md:text-5xl">
         {title}
       </h2>
 
