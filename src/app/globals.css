@@ -1,23 +1,39 @@
+
 @import "tailwindcss";
 
+/* ========================================
+CORES GLOBAIS
+======================================== */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FFFAFA;
+  --foreground: #A94F65;
 }
 
+/* ========================================
+TEMA PERSONALIZADO - TAILWIND CSS
+======================================== */
+
 @theme inline {
+  /* Identidade visual da Maíra */
+  --color-brand-background: #FFFAFA;
+  --color-brand-light: #FFE0E0;
+  --color-brand-pink: #FFC0D0;
+  --color-brand-nude: #EFDFBF;
+  --color-brand-rose: #A94F65;
+
+  /* Cores globais */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Fontes */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ========================================
+ESTILOS GLOBAIS
+======================================== */
 
 body {
   background: var(--background);

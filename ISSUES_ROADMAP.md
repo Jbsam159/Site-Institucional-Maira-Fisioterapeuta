@@ -95,9 +95,9 @@
 - [x] Configurar Tailwind CSS.
 - [x] Configurar estrutura inicial de diretórios.
 - [x] Configurar ESLint.
-- [ ] Configurar Git e organização inicial do repositório.
-- [ ] Criar arquivo de variáveis de ambiente de exemplo, caso necessário.
-- [ ] Verificar execução local do projeto.
+- [x] Configurar Git e organização inicial do repositório.
+- [x] Criar arquivo de variáveis de ambiente de exemplo, caso necessário.
+- [x] Verificar execução local do projeto.
 
 **Critérios de aceitação:**
 
