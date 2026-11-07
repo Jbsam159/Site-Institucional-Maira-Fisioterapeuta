@@ -113,8 +113,8 @@
 
 ### Issue #06 — Implementação da identidade visual e componentes base
 
-- [ ] Configurar cores personalizadas.
-- [ ] Configurar tipografia.
+- [x] Configurar cores personalizadas.
+- [x] Configurar tipografia.
 - [ ] Implementar estilos globais.
 - [ ] Criar componentes reutilizáveis de interface.
 - [ ] Implementar botões.

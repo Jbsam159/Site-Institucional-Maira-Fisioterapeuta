@@ -27,8 +27,8 @@ TEMA PERSONALIZADO - TAILWIND CSS
   --color-foreground: var(--foreground);
 
   /* Fontes */
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-dm-sans);
+  --font-heading: var(--font-cormorant);
 }
 
 /* ========================================
@@ -38,5 +38,5 @@ ESTILOS GLOBAIS
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
 }
