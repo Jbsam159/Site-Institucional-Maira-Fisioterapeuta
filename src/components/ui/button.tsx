@@ -1,22 +1,25 @@
 
 import { ButtonHTMLAttributes } from 'react';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'outline';
-  size?: 'sm' | 'md' | 'lg';
-}
+export type ButtonVariant = 'primary' | 'secondary' | 'outline';
+export type ButtonSize = 'sm' | 'md' | 'lg';
 
-const variants = {
+export const buttonVariants: Record<ButtonVariant, string> = {
   primary: 'bg-brand-rose text-white hover:bg-brand-rose/90',
   secondary: 'bg-brand-pink text-brand-rose hover:bg-brand-pink/80',
   outline: 'border border-brand-rose text-brand-rose hover:bg-brand-light',
 };
 
-const sizes = {
+export const buttonSizes: Record<ButtonSize, string> = {
   sm: 'px-4 py-2 text-sm',
   md: 'px-6 py-3 text-base',
   lg: 'px-8 py-4 text-lg',
 };
+
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+}
 
 export function Button({
   children,
@@ -36,8 +39,8 @@ export function Button({
         focus-visible:outline-2 focus-visible:outline-offset-2
         focus-visible:outline-brand-rose
         disabled:cursor-not-allowed disabled:opacity-50
-        ${variants[variant]}
-        ${sizes[size]}
+        ${buttonVariants[variant]}
+        ${buttonSizes[size]}
         ${className}
       `}
       {...props}
