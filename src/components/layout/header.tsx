@@ -26,7 +26,7 @@ export function Header() {
               alt="Maira Oliveira — Fisioterapeuta. Movimento, Saúde e Bem-estar."
               width={1317}
               height={714}
-              priority
+              sizes="(min-width: 1280px) 240px, (min-width: 1024px) 208px, 288px"
               className="h-auto w-72 lg:w-52 xl:w-60"
             />
           </Link>

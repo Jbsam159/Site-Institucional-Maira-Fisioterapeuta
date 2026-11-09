@@ -18,10 +18,10 @@ export function AboutSection() {
           {/* Fotografia */}
           <div className="relative mx-auto aspect-[3/4] w-full max-w-lg overflow-hidden rounded-[2rem]">
             <Image
-              src="/images/maira-trabalhando-1.jpeg"
+              src="/images/maira-trabalhando-1.webp"
               alt="Maíra Oliveira, fisioterapeuta"
               fill
-              sizes="(max-width: 768px) 100vw, 50vw"
+              sizes="(max-width: 512px) 100vw, 512px"
               className="object-cover"
             />
           </div>

@@ -45,11 +45,11 @@ export function HeroSection() {
           {/* Fotografia */}
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem]">
             <Image
-              src="/images/maira_1.jpeg"
+              src="/images/maira_1.webp"
               alt="Maira Oliveira, fisioterapeuta"
               fill
               priority
-              sizes="(max-width: 768px) 100vw, 50vw"
+              sizes="(max-width: 448px) 100vw, 448px"
               className="object-cover"
             />
           </div>

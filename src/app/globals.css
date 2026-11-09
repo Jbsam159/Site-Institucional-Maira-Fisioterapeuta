@@ -39,6 +39,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   min-height: 100vh;
   background-color: var(--background);
@@ -61,15 +67,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-/* ========================================
-  IMAGENS
-======================================== */
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* ========================================

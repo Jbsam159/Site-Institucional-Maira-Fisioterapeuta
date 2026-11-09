@@ -213,14 +213,14 @@
 
 ### Issue #12 — Otimização de desempenho e acessibilidade
 
-- [ ] Otimizar imagens.
-- [ ] Verificar carregamento de fontes.
-- [ ] Avaliar utilização de componentes de servidor.
-- [ ] Revisar carregamento de recursos.
-- [ ] Implementar textos alternativos nas imagens.
-- [ ] Verificar contraste das cores.
-- [ ] Validar navegação por teclado.
-- [ ] Avaliar Core Web Vitals.
+- [x] Otimizar imagens.
+- [x] Verificar carregamento de fontes.
+- [x] Avaliar utilização de componentes de servidor.
+- [x] Revisar carregamento de recursos.
+- [x] Implementar textos alternativos nas imagens.
+- [x] Verificar contraste das cores.
+- [x] Validar navegação por teclado.
+- [ ] Avaliar Core Web Vitals. (ainda não, precisa ser publicado)
 
 **Critérios de aceitação:**
 
@@ -235,14 +235,14 @@
 
 ### Issue #13 — Testes funcionais e responsividade
 
-- [ ] Testar navegação.
-- [ ] Testar botões e links.
-- [ ] Testar integração com WhatsApp.
-- [ ] Testar formulário, caso implementado.
+- [x] Testar navegação.
+- [x] Testar botões e links.
+- [x] Testar integração com WhatsApp.
+- [x] Testar formulário, caso implementado.
 - [ ] Testar em dispositivos móveis.
 - [ ] Testar em tablets.
-- [ ] Testar em desktops.
-- [ ] Verificar comportamento em diferentes navegadores.
+- [x] Testar em desktops.
+- [x] Verificar comportamento em diferentes navegadores.
 - [ ] Corrigir problemas encontrados.
 
 **Critérios de aceitação:**

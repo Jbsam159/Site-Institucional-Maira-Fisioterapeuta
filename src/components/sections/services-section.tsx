@@ -12,25 +12,25 @@ const SERVICES = [
     title: 'Terapia Manual',
     description:
       'Técnicas manuais utilizadas no cuidado, alívio de desconfortos e recuperação funcional.',
-    image: '/images/servicos/maira-trabalhando-1.jpeg',
+    image: '/images/servicos/maira-trabalhando-1.webp',
   },
   {
     title: 'Ventosaterapia',
     description:
       'Recurso terapêutico que utiliza ventosas como parte do tratamento fisioterapêutico.',
-    image: '/images/servicos/maira-trabalhando-1.jpeg',
+    image: '/images/servicos/maira-trabalhando-1.webp',
   },
   {
     title: 'Liberação Miofascial',
     description:
       'Técnica voltada ao cuidado da fáscia e à melhora da mobilidade dos tecidos.',
-    image: '/images/servicos/maira-trabalhando-1.jpeg',
+    image: '/images/servicos/maira-trabalhando-1.webp',
   },
   {
     title: 'Eletroterapia',
     description:
       'Utilização de recursos elétricos como auxílio nos tratamentos fisioterapêuticos.',
-    image: '/images/servicos/maira-trabalhando-1.jpeg',
+    image: '/images/servicos/maira-trabalhando-1.webp',
   },
 ];
 
