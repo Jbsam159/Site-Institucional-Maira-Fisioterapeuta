@@ -1,6 +1,6 @@
 export const CONTACT = {
   whatsapp: {
-    number: "5561999999999",
+    number: "556198430305",
     message: "Olá, Maíra! Gostaria de saber mais sobre seus atendimentos.",
   },
   instagram: {

@@ -165,7 +165,7 @@
 - [x] Criar seção de Diferenciais.
 - [x] Criar seção de Depoimentos, caso aplicável.
 - [x] Criar seção de Contato.
-- [ ] Criar rodapé institucional.
+- [x] Criar rodapé institucional.
 
 **Critérios de aceitação:**
 
@@ -176,11 +176,10 @@
 
 ### Issue #10 — Integração dos canais de contato
 
-- [ ] Implementar integração com WhatsApp.
-- [ ] Configurar mensagem inicial personalizada.
-- [ ] Implementar links para redes sociais.
-- [ ] Implementar formulário de contato, caso aprovado.
-- [ ] Validar funcionamento dos links e formulários.
+- [x] Implementar integração com WhatsApp.
+- [x] Configurar mensagem inicial personalizada.
+- [x] Implementar links para redes sociais.
+- [x] Validar funcionamento dos links e formulários.
 
 **Critérios de aceitação:**
 

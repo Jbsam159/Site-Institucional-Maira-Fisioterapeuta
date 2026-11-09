@@ -2,15 +2,17 @@
 import Link from 'next/link';
 
 import { CurrentYear } from '@/components/ui/current-year';
-
 import { Container } from '@/components/ui/container';
 import { ButtonLink } from '@/components/ui/button-link';
 
-import { WHATSAPP_URL } from '@/constants/contact';
+import {
+  WHATSAPP_URL,
+  INSTAGRAM_URL,
+} from '@/constants/contact';
+
 import { NAVIGATION } from '@/constants/navigation';
 
 export function Footer() {
-
   return (
     <footer className="bg-brand-rose text-brand-background">
       <Container>
@@ -36,29 +38,61 @@ export function Footer() {
 
             <nav aria-label="Navegação do rodapé">
               <ul className="flex flex-col gap-3 font-sans text-sm text-brand-background/80">
+
                 <li>
-                  <Link href={NAVIGATION.home} className="transition-colors hover:text-white">
+                  <Link
+                    href={NAVIGATION.home}
+                    className="transition-colors hover:text-white"
+                  >
                     Início
                   </Link>
                 </li>
 
                 <li>
-                  <Link href={NAVIGATION.about} className="transition-colors hover:text-white">
+                  <Link
+                    href={NAVIGATION.about}
+                    className="transition-colors hover:text-white"
+                  >
                     Sobre
                   </Link>
                 </li>
 
                 <li>
-                  <Link href={NAVIGATION.services} className="transition-colors hover:text-white">
+                  <Link
+                    href={NAVIGATION.services}
+                    className="transition-colors hover:text-white"
+                  >
                     Serviços
                   </Link>
                 </li>
 
                 <li>
-                  <Link href={NAVIGATION.contact} className="transition-colors hover:text-white">
+                  <Link
+                    href={NAVIGATION.differentials}
+                    className="transition-colors hover:text-white"
+                  >
+                    Diferenciais
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href={NAVIGATION.testimonials}
+                    className="transition-colors hover:text-white"
+                  >
+                    Depoimentos
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href={NAVIGATION.contact}
+                    className="transition-colors hover:text-white"
+                  >
                     Contato
                   </Link>
                 </li>
+
               </ul>
             </nav>
           </div>
@@ -82,6 +116,17 @@ export function Footer() {
             >
               Agendar consulta
             </ButtonLink>
+
+            {/* Instagram */}
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-sm text-brand-background/80 transition-colors hover:text-white"
+              aria-label="Visitar Instagram profissional da Maíra"
+            >
+              Instagram: @fisiomaira
+            </a>
           </div>
 
         </div>
