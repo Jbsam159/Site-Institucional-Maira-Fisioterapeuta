@@ -161,8 +161,8 @@
 ### Issue #09 — Desenvolvimento das seções institucionais
 
 - [x] Criar seção Sobre Mim.
-- [ ] Criar seção de Serviços.
-- [ ] Criar seção de Diferenciais.
+- [x] Criar seção de Serviços.
+- [x] Criar seção de Diferenciais.
 - [ ] Criar seção de Depoimentos, caso aplicável.
 - [ ] Criar seção de Contato.
 - [ ] Criar rodapé institucional.

@@ -1,6 +1,9 @@
 import { WhatsAppButton } from '@/components/layout/whatsapp-button';
+
 import { HeroSection } from '@/components/sections/hero-section';
 import { AboutSection } from '@/components/sections/about-section';
+import { ServicesSection } from '@/components/sections/services-section';
+import { DifferentialsSection } from '@/components/sections/differentials-section';
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
         
         <HeroSection/>
         <AboutSection />
+        <ServicesSection />
+        <DifferentialsSection />
+
       </main>
 
       <WhatsAppButton />
