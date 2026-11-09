@@ -129,12 +129,12 @@
 
 ### Issue #07 — Implementação do cabeçalho e navegação
 
-- [ ] Implementar cabeçalho.
-- [ ] Inserir logomarca.
-- [ ] Implementar navegação entre seções.
-- [ ] Criar menu responsivo.
-- [ ] Implementar botão de contato.
-- [ ] Validar comportamento em dispositivos móveis.
+- [x] Implementar cabeçalho.
+- [x] Inserir logomarca.
+- [x] Implementar navegação entre seções.
+- [x] Criar menu responsivo.
+- [x] Implementar botão de contato.
+- [x] Validar comportamento em dispositivos móveis.
 
 **Critérios de aceitação:**
 
@@ -144,12 +144,12 @@
 
 ### Issue #08 — Desenvolvimento da página inicial (Hero)
 
-- [ ] Criar seção principal.
-- [ ] Apresentar nome e profissão.
-- [ ] Desenvolver chamada principal.
-- [ ] Inserir fotografia profissional, caso disponível.
-- [ ] Implementar botão de contato.
-- [ ] Ajustar composição visual para dispositivos móveis.
+- [x] Criar seção principal.
+- [x] Apresentar nome e profissão.
+- [x] Desenvolver chamada principal.
+- [x] Inserir fotografia profissional, caso disponível.
+- [x] Implementar botão de contato.
+- [x] Ajustar composição visual para dispositivos móveis.
 
 **Critérios de aceitação:**
 

@@ -7,11 +7,13 @@ import { ButtonLink } from '@/components/ui/button-link';
 import { WHATSAPP_URL } from '@/constants/contact';
 import { NAVIGATION } from '@/constants/navigation';
 
+import Image from 'next/image';
+
 export function Header() {
   return (
     <header className="w-full border-b border-brand-light bg-brand-background">
       <Container>
-        <div className="flex flex-col items-center justify-between gap-5 py-5 md:flex-row">
+        <div className="flex flex-col items-center justify-between gap-5 py-5 lg:flex-row">
 
           {/* Identidade visual */}
           <Link
@@ -19,13 +21,14 @@ export function Header() {
             className="flex flex-col items-center md:items-start"
             aria-label="Maira Oliveira - Página inicial"
           >
-            <span className="font-heading text-3xl font-semibold text-brand-rose">
-              Maira Oliveira
-            </span>
-
-            <span className="font-sans text-xs tracking-[0.2em] text-brand-rose">
-              FISIOTERAPEUTA
-            </span>
+            <Image
+              src="/logo/logo-header.png"
+              alt="Maira Oliveira — Fisioterapeuta. Movimento, Saúde e Bem-estar."
+              width={1317}
+              height={714}
+              priority
+              className="h-auto w-72 lg:w-52 xl:w-60"
+            />
           </Link>
 
           {/* Navegação principal */}
