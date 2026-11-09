@@ -163,8 +163,8 @@
 - [x] Criar seção Sobre Mim.
 - [x] Criar seção de Serviços.
 - [x] Criar seção de Diferenciais.
-- [ ] Criar seção de Depoimentos, caso aplicável.
-- [ ] Criar seção de Contato.
+- [x] Criar seção de Depoimentos, caso aplicável.
+- [x] Criar seção de Contato.
 - [ ] Criar rodapé institucional.
 
 **Critérios de aceitação:**
