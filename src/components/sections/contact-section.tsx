@@ -50,7 +50,7 @@ export function ContactSection() {
               md:text-lg
             ">
               Leve o cuidado e a atenção da fisioterapia até você.
-              A Maíra realiza atendimentos domiciliares,
+              A Maíra realiza atendimentos domiciliares em Brasília,
               proporcionando um acompanhamento individualizado
               e adequado às suas necessidades.
             </p>

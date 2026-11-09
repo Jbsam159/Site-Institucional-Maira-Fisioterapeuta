@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 
+import { StructuredData } from '@/components/seo/structured-data';
+
 import {
   Cormorant_Garamond,
   DM_Sans,
@@ -28,11 +30,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   // Título exibido nos resultados de busca e na aba do navegador.
-  title: "Maira Oliveira | Fisioterapeuta",
+  title: "Fisioterapia Domiciliar em Brasília | Maíra Oliveira",
 
   // Resumo sobre o conteúdo do site.
   description:
-    "Conheça Maira Oliveira, fisioterapeuta. Atendimento domiciliar com cuidado individualizado, terapia manual, ventosaterapia e outros recursos para promover saúde e bem-estar.",
+    "Maíra Oliveira, fisioterapeuta em Brasília. Atendimento domiciliar com cuidado individualizado, terapia manual, ventosaterapia, liberação miofascial e eletroterapia.",
 
   // Identificação da profissional responsável pelo conteúdo.
   authors: [
@@ -49,9 +51,9 @@ export const metadata: Metadata = {
 
   // Metadados utilizados no compartilhamento em redes sociais.
   openGraph: {
-    title: "Maira Oliveira | Fisioterapeuta",
+    title: "Fisioterapia Domiciliar em Brasília | Maíra Oliveira",
     description:
-      "Fisioterapia domiciliar com cuidado individualizado, atenção e dedicação à sua saúde e bem-estar.",
+    "Maíra Oliveira, fisioterapeuta em Brasília. Atendimento domiciliar com cuidado individualizado, terapia manual, ventosaterapia, liberação miofascial e eletroterapia.",
     siteName: "Maira Oliveira",
     locale: "pt_BR",
     type: "website",
@@ -67,7 +69,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col">
 
-        <Header />
+        <StructuredData />
+
+        <Header />  
 
         {children}
 

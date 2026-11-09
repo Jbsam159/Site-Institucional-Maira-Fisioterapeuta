@@ -18,7 +18,7 @@ export function HeroSection() {
           <div className="flex flex-col items-center gap-6 text-center md:items-start md:text-left">
 
             <span className="font-sans text-sm font-semibold uppercase tracking-[0.2em] text-brand-rose">
-              Fisioterapia • Movimento • Bem-estar
+              Fisioterapia domiciliar em Brasília
             </span>
 
             <h1 className="max-w-xl font-heading text-4xl font-semibold leading-tight text-brand-rose sm:text-5xl lg:text-6xl">

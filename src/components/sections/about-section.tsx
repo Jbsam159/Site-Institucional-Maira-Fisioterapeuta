@@ -39,7 +39,7 @@ export function AboutSection() {
 
             <div className="flex flex-col gap-4 font-sans text-base leading-relaxed text-brand-rose/80 md:text-lg">
               <p>
-                Sou Maíra Oliveira, fisioterapeuta, e acredito que
+                Sou Maíra Oliveira, fisioterapeuta em Brasília, e acredito que
                 cada pessoa merece um cuidado individualizado,
                 respeitando suas necessidades, limitações e objetivos.
               </p>

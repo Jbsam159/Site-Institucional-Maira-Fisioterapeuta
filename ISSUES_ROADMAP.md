@@ -199,9 +199,9 @@
 - [x] Configurar Open Graph.
 - [x] Implementar sitemap.xml.
 - [x] Implementar robots.txt.
-- [ ] Configurar favicon.
-- [ ] Implementar dados estruturados adequados à atividade profissional.
-- [ ] Trabalhar palavras-chave relacionadas à fisioterapia e localização.
+- [x] Configurar favicon.
+- [x] Implementar dados estruturados adequados à atividade profissional.
+- [x] Trabalhar palavras-chave relacionadas à fisioterapia e localização.
 
 **Critérios de aceitação:**
 
