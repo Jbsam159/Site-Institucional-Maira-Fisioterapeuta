@@ -8,9 +8,9 @@ import { SectionTitle } from '@/components/ui/section-title';
 // Os textos serão substituídos pelos relatos reais posteriormente.
 const TESTIMONIALS = [
   {
-    name: 'Depoimento 1',
+    name: 'João Victor',
     relationship: 'Relato pessoal',
-    text: 'A Maíra é uma profissional muito atenciosa e dedicada. Desde o início, demonstra cuidado, paciência e preocupação em oferecer um atendimento de qualidade. É muito bom ver o carinho e o compromisso que ela coloca no que faz.',
+    text: 'A Maíra é uma fisioterapeuta muito dedicada e atenciosa, sempre prezando pela qualidade do atendimento e seu bem estar, se você está vendo esse depoimento, recomendo totalmente o serviço.',
   },
   {
     name: 'Depoimento 2',

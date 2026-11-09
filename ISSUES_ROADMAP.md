@@ -194,11 +194,11 @@
 
 ### Issue #11 — Implementação de SEO
 
-- [ ] Configurar metadados.
-- [ ] Configurar título e descrição da página.
-- [ ] Configurar Open Graph.
-- [ ] Implementar sitemap.xml.
-- [ ] Implementar robots.txt.
+- [x] Configurar metadados.
+- [x] Configurar título e descrição da página.
+- [x] Configurar Open Graph.
+- [x] Implementar sitemap.xml.
+- [x] Implementar robots.txt.
 - [ ] Configurar favicon.
 - [ ] Implementar dados estruturados adequados à atividade profissional.
 - [ ] Trabalhar palavras-chave relacionadas à fisioterapia e localização.

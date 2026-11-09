@@ -25,10 +25,39 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
+
 export const metadata: Metadata = {
+  // Título exibido nos resultados de busca e na aba do navegador.
   title: "Maira Oliveira | Fisioterapeuta",
-  description: "Movimento, saúde e bem-estar.",
+
+  // Resumo sobre o conteúdo do site.
+  description:
+    "Conheça Maira Oliveira, fisioterapeuta. Atendimento domiciliar com cuidado individualizado, terapia manual, ventosaterapia e outros recursos para promover saúde e bem-estar.",
+
+  // Identificação da profissional responsável pelo conteúdo.
+  authors: [
+    {
+      name: "Maira Oliveira",
+    },
+  ],
+
+  // Orientações para mecanismos de busca.
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  // Metadados utilizados no compartilhamento em redes sociais.
+  openGraph: {
+    title: "Maira Oliveira | Fisioterapeuta",
+    description:
+      "Fisioterapia domiciliar com cuidado individualizado, atenção e dedicação à sua saúde e bem-estar.",
+    siteName: "Maira Oliveira",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
+
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
