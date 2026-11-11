@@ -5,11 +5,11 @@ import { SITE_CONFIG } from "@/constants/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      // Endereço principal do site quando hospedado
+      // Endereço principal do site.
       url: SITE_CONFIG.url,
 
-      // Data da última modificação do conteúdo.
-      lastModified: new Date(),
+      // Atualizar quando houver uma alteração significativa no conteúdo.
+      lastModified: new Date("2026-11-11"),
 
       // Frequência estimada de atualização.
       changeFrequency: "monthly",
