@@ -1,16 +1,24 @@
 
+import { SITE_CONFIG } from '@/constants/site';
+
+const SITE_URL = SITE_CONFIG.url.replace(/\/$/, '');
+
 const STRUCTURED_DATA = {
   '@context': 'https://schema.org',
 
   '@graph': [
     {
       '@type': 'Person',
-      '@id': '#maira-oliveira',
+      '@id': `${SITE_URL}/#maira-oliveira`,
 
       name: 'Maíra Oliveira',
       jobTitle: 'Fisioterapeuta',
 
-      identifier: 'CREFITO-11: 421293-F',
+      identifier: {
+        '@type': 'PropertyValue',
+        propertyID: 'CREFITO-11',
+        value: '421293-F',
+      },
 
       sameAs: [
         'https://www.instagram.com/fisiomaira/',
@@ -31,7 +39,7 @@ const STRUCTURED_DATA = {
 
     {
       '@type': 'Service',
-      '@id': '#fisioterapia-domiciliar',
+      '@id': `${SITE_URL}/#fisioterapia-domiciliar`,
 
       name: 'Atendimento fisioterapêutico domiciliar',
 
@@ -41,7 +49,7 @@ const STRUCTURED_DATA = {
         'Atendimento fisioterapêutico domiciliar com cuidado individualizado, utilizando diferentes recursos terapêuticos para promover saúde, recuperação funcional e qualidade de vida.',
 
       provider: {
-        '@id': '#maira-oliveira',
+        '@id': `${SITE_URL}/#maira-oliveira`,
       },
 
       areaServed: {
