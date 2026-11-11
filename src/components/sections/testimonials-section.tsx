@@ -13,13 +13,13 @@ const TESTIMONIALS = [
     text: 'A Maíra é uma fisioterapeuta muito dedicada e atenciosa, sempre prezando pela qualidade do atendimento e seu bem estar, se você está vendo esse depoimento, recomendo totalmente o serviço.',
   },
   {
-    name: 'Depoimento 2',
+    name: 'Maristela Batista',
     relationship: 'Relato familiar',
     text: 'O trabalho da Maíra demonstra muita dedicação e responsabilidade. Ela realiza seus atendimentos com atenção e carinho, sempre buscando oferecer o melhor para cada pessoa. Tenho muito orgulho de acompanhar sua trajetória profissional.',
   },
   {
     name: 'Depoimento 3',
-    relationship: 'Relato familiar',
+    relationship: 'Osmar David',
     text: 'A Maíra tem um jeito muito especial de cuidar das pessoas. É atenciosa, carinhosa e transmite confiança durante o atendimento. Seu cuidado e dedicação fazem toda a diferença.',
   },
 ];
