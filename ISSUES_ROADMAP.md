@@ -71,12 +71,12 @@
 
 ### Issue #04 — Planejamento da interface (UI/UX)
 
-- [ ] Criar wireframe da página inicial.
-- [ ] Definir layout para dispositivos móveis.
-- [ ] Definir layout para desktops.
-- [ ] Planejar disposição dos elementos.
-- [ ] Definir padrões de interação.
-- [ ] Validar a proposta visual antes da implementação.
+- [x] Criar wireframe da página inicial.
+- [x] Definir layout para dispositivos móveis.
+- [x] Definir layout para desktops.
+- [x] Planejar disposição dos elementos.
+- [x] Definir padrões de interação.
+- [x] Validar a proposta visual antes da implementação.
 
 **Critérios de aceitação:**
 
@@ -220,7 +220,7 @@
 - [x] Implementar textos alternativos nas imagens.
 - [x] Verificar contraste das cores.
 - [x] Validar navegação por teclado.
-- [ ] Avaliar Core Web Vitals. (ainda não, precisa ser publicado)
+- [x] Avaliar Core Web Vitals.
 
 **Critérios de aceitação:**
 
@@ -239,11 +239,11 @@
 - [x] Testar botões e links.
 - [x] Testar integração com WhatsApp.
 - [x] Testar formulário, caso implementado.
-- [ ] Testar em dispositivos móveis.
-- [ ] Testar em tablets.
+- [x] Testar em dispositivos móveis.
+- [x] Testar em tablets.
 - [x] Testar em desktops.
 - [x] Verificar comportamento em diferentes navegadores.
-- [ ] Corrigir problemas encontrados.
+- [x] Corrigir problemas encontrados.
 
 **Critérios de aceitação:**
 

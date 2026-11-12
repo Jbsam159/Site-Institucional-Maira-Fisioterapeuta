@@ -14,12 +14,12 @@ const TESTIMONIALS = [
   },
   {
     name: 'Maristela Batista',
-    relationship: 'Relato familiar',
+    relationship: 'Relato pessoal',
     text: 'O trabalho da Maíra demonstra muita dedicação e responsabilidade. Ela realiza seus atendimentos com atenção e carinho, sempre buscando oferecer o melhor para cada pessoa. Tenho muito orgulho de acompanhar sua trajetória profissional.',
   },
   {
-    name: 'Depoimento 3',
-    relationship: 'Osmar David',
+    name: 'Osmar David',
+    relationship: 'Relato pessoal',
     text: 'A Maíra tem um jeito muito especial de cuidar das pessoas. É atenciosa, carinhosa e transmite confiança durante o atendimento. Seu cuidado e dedicação fazem toda a diferença.',
   },
 ];
