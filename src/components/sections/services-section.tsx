@@ -1,5 +1,10 @@
 
-import Image from 'next/image';
+import {
+  HandHeart,
+  Droplets,
+  Activity,
+  Zap,
+} from 'lucide-react';
 
 import { Container } from '@/components/ui/container';
 import { ButtonLink } from '@/components/ui/button-link';
@@ -12,25 +17,25 @@ const SERVICES = [
     title: 'Terapia Manual',
     description:
       'Técnicas manuais utilizadas no cuidado, alívio de desconfortos e recuperação funcional.',
-    image: '/images/servicos/maira-trabalhando-1.webp',
+    icon: HandHeart,
   },
   {
     title: 'Ventosaterapia',
     description:
       'Recurso terapêutico que utiliza ventosas como parte do tratamento fisioterapêutico.',
-    image: '/images/servicos/maira-trabalhando-1.webp',
+    icon: Droplets,
   },
   {
     title: 'Liberação Miofascial',
     description:
       'Técnica voltada ao cuidado da fáscia e à melhora da mobilidade dos tecidos.',
-    image: '/images/servicos/maira-trabalhando-1.webp',
+    icon: Activity,
   },
   {
     title: 'Eletroterapia',
     description:
       'Utilização de recursos elétricos como auxílio nos tratamentos fisioterapêuticos.',
-    image: '/images/servicos/maira-trabalhando-1.webp',
+    icon: Zap,
   },
 ];
 
@@ -60,34 +65,38 @@ export function ServicesSection() {
 
           {/* Cards de serviços */}
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {SERVICES.map((service) => (
-              <article
-                key={service.title}
-                className="group overflow-hidden rounded-2xl border border-brand-light bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
-              >
-                {/* Fotografia */}
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={service.image}
-                    alt={`Atendimento de ${service.title}`}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
+            {SERVICES.map((service) => {
+              const Icon = service.icon;
 
-                {/* Conteúdo */}
-                <div className="flex flex-col gap-3 p-5">
-                  <h3 className="font-heading text-2xl font-semibold text-brand-rose">
-                    {service.title}
-                  </h3>
+              return (
+                <article
+                  key={service.title}
+                  className="group flex flex-col gap-5 rounded-2xl border border-brand-light bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                >
+                  {/* Ícone */}
+                  <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl bg-brand-light/40 transition-colors duration-300 group-hover:bg-brand-light/70">
+                    <div className="flex size-24 items-center justify-center rounded-full border border-brand-rose/15 bg-brand-background text-brand-rose transition-all duration-300 group-hover:scale-110 group-hover:border-brand-rose/30">
+                      <Icon
+                        size={44}
+                        strokeWidth={1.5}
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </div>
 
-                  <p className="font-sans text-sm leading-relaxed text-brand-rose/80">
-                    {service.description}
-                  </p>
-                </div>
-              </article>
-            ))}
+                  {/* Conteúdo */}
+                  <div className="flex flex-1 flex-col gap-3">
+                    <h3 className="font-heading text-2xl font-semibold text-brand-rose">
+                      {service.title}
+                    </h3>
+
+                    <p className="font-sans text-sm leading-relaxed text-brand-rose/80">
+                      {service.description}
+                    </p>
+                  </div>
+                </article>
+              );
+            })}
           </div>
 
           {/* Áreas de atuação */}
