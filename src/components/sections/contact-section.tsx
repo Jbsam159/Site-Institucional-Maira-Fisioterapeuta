@@ -2,6 +2,7 @@
 import {
   MessageCircle,
   House,
+  HouseHeart,
 } from 'lucide-react';
 
 import { Container } from '@/components/ui/container';
@@ -176,7 +177,7 @@ export function ContactSection() {
             flex flex-col items-center gap-3
             text-center
           ">
-            <House
+            <HouseHeart
               size={30}
               strokeWidth={1.7}
               className="text-brand-rose"
