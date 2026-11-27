@@ -63,6 +63,11 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     type: "website",
   },
+
+  verification: {
+    google: "x_KgRbs6QlTSYty2RYj6tl1eabaFSeRwJ4hpPZRCh6w"
+  }
+
 };
 
 
